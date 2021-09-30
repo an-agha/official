@@ -1,0 +1,737 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* mobile nav-bar */
+
+.mobile-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+}
+.mobile-nav-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+.nav-head{
+    width: 70%;
+    font-size: 20pt;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #314199;
+     margin-bottom: 2vh;
+} 
+.search{
+    display: flex;
+    justify-content: space-around;
+}
+.mobile-nav-search{
+    width: 75%;
+    height: 6vh;
+    border: .1px solid #CCF;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding-left: 7px;
+}
+.search-btn{
+    width: 20%;
+    height: 6vh;
+    border: none;
+    background-color: #EF4F4F;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+
+}
+
+
+
+/* web nav */
+
+.web-nav{
+    display: none;
+}
+
+/* content */
+
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15vh;
+    font-family: sans-serif;
+}
+/* explore your destination */
+.deal-main-container{
+    display: none;
+}
+.filter-container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-top: 4vh;
+    text-align: center;
+    margin-bottom: 2vh;
+    overflow-x: scroll;
+    
+}
+.filter-child-container{
+    width: 200%;
+    height: 15vh;
+    display: flex;
+}
+.filter{
+    width: 15vw;
+    height: 8vh;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 9pt;
+    background-color: #74C7B8;
+    margin: 0 2vw;
+}
+.filter-hotel-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+.location-name{
+    font-size: 6pt;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* web content */
+
+.web-head-container{
+    display: none;
+}
+.best-deal-container{
+    width: 90%;
+    overflow-x: scroll;
+   
+}
+
+.best-deal-child{
+    width: 600%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.mobile-header{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c6fafad7;
+    border-radius: 6px;
+    padding: 4vh 0;
+    box-sizing: border-box;
+    margin: 0 1vw;
+}
+.header-image{
+    width: 90%;
+    height: 30vh;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+}
+.header-img{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.best-deal-img-1{
+    background-image: url("https://cdn.wallpapersafari.com/58/99/BrFphn.jpg");
+}
+.best-deal-img-2{
+    background-image: url("https://www.calinisanresorthotel.com/wp-content/uploads/2019/04/AQUA-POOL1.jpg");
+}
+.best-deal-img-3{
+    background-image: url("https://img.traveltriangle.com/blog/wp-content/uploads/2016/08/hard-rock-hotel.jpg");
+}
+.best-deal-img-4{
+    background-image: url("https://presentingmycity.com/wp-content/uploads/2019/08/Luxury-Beach-Resorts0.jpg");
+}
+.best-deal-img-5{
+    background-image: url("https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2016/08/hard-rock-hotel.jpg");
+}
+.best-deal-img-6{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9nJxmFPXrYtDDu9M5JJPn0_vvj3G22kvgWA&usqp=CAU");
+}
+
+
+.details-style{
+    font-size: 9pt;
+}
+.header-details{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+    line-height: 4vh;
+    box-sizing: border-box;
+    font-size: 11pt;
+}
+.details{
+    width: 60%;
+}
+.header-btn{
+    width: 30%;
+    height: 6vh;
+    font-size: 11pt;
+}
+.main-btn{
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #EF4F4F;
+}
+.main-heading{
+    width: 70%;
+    font-size: 15pt;
+    font-weight: 600;
+    box-sizing: border-box;
+    margin: 2vh 0;
+    color: #314199;
+    margin-left: -18vw;
+}
+.hotel-container{
+    width: 90%;
+}
+.hotel-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hotel{
+    width: 48%;
+    height: 40vh;
+    margin-bottom: 2vh;
+    background-color: #c6fafad7;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hotel-image{
+    width: 90%;
+    height: 60%;
+    border-radius: 4px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:2vh 0;
+}
+.hotel-details{
+    display: flex;
+}
+.img-1{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/624/380/1000/life-resort-hotel-resort-hotel-wallpaper-preview.jpg");
+}
+.img-2{
+    background-image: url("https://free4kwallpapers.com/uploads/originals/2015/10/21/famous-for-being-the-ultimate-luxury-honeymoon-getaway-the-maldives-is-the-smallest-asian-country-and-the-maldives-is-definitely-a-beautiful-escape.-wallpaper_.jpg");
+}
+.img-3{
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/68/331/736/evening-in-luxury-water-villa-wallpaper-preview.jpg");
+}
+.img-4{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/209/426/327/moonlit-green-lagoon-pool-green-palm-tree-wallpaper-preview.jpg");
+}
+
+.list-details{
+    width: 85%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.list-details-child{
+    width: 100%;
+    font-size: 9pt;
+}
+.list-style{
+    width: 100%;
+    margin-top: 1vh;
+}
+.list-btn{
+    width: 90%;
+    height: 3vh;
+    font-size: 8pt;
+}
+
+/* week endescapes */
+.week-end-image{
+    background-image: url("https://w0.peakpx.com/wallpaper/663/666/HD-wallpaper-luxury-resort-palm-trees-flowers-pool-resort.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* mobile footer */
+
+.footer-container{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 6vh 0;
+    font-family: sans-serif;
+    margin-bottom: 15vh;
+}
+.footer-download{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+.store{
+    width: 80%;
+    height: 7vh;
+    background-color: black;
+    margin-bottom: 2vh;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+}
+.store-style{
+    color: #fff;
+    box-sizing: border-box;
+}
+.footer-filter{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 4vw;
+    line-height: 4vh;
+    box-sizing: border-box;
+}
+.child{
+    text-decoration: none;
+    margin-bottom: 1vh;
+    color: rgba(92, 90, 90, 0.8);
+    /* margin-left: 3vw; */
+    
+    
+}  
+.web-nav-filter{
+    display: none;
+}
+
+
+/* bottom nav  mobile */
+.footer-mobile{
+    width: 100%;
+    height: 9vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-family: sans-serif;
+    border-top: 1px solid #CCF;
+}
+.footer-item{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+}
+a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:560px) {
+
+    .nav-head{
+        margin-bottom: 5vh;
+    }
+    .mobile-nav-search{
+        height: 10vh;
+    }
+    .search-btn{
+        height: 10vh;
+    }
+
+    .filter-child-container{
+        width: 200%;
+        height: 22vh;
+    }
+    .filter{
+        height: 15vh;
+    }
+    .location-name{
+        font-size: 7pt;
+    }
+
+    .main-container{
+        margin-bottom: 15vh;
+    }
+    .header-image{
+        height: 50vh;
+    }
+    .header-details{
+        margin-top: 3vh;
+        line-height: 8vh;
+        font-size: 13pt;
+    }
+    .header-btn{
+        width: 30%;
+        height: 9vh;
+        font-size: 13pt;
+    }
+    .hotel{
+        height: 70vh;
+        margin-bottom: 5vh;
+    }
+    .list-details-child{
+        font-size: 12pt;
+    }
+    .list-style{
+        margin-top: 2vh;
+    }
+    .list-btn{
+        height: 7vh;
+        font-size: 11pt;
+        margin-bottom: 2vh;
+    }
+    .footer-container{
+        margin-bottom: 40vh;
+    }
+    .store{
+        width: 50%;
+        height: 15vh;
+    }
+
+    .footer-mobile{
+        height: 25vh;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .mobile-nav{
+        display: none;
+    }
+    .footer-mobile{
+        display: none;
+    }
+    .explore{
+        display: none;
+    }
+    .filter-container{
+        display: none;
+    }
+    .web-nav{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-weight: 600;
+        color: #fff;
+        position: fixed;
+        top: 0;
+        box-sizing: border-box;
+        z-index: 8;
+    }
+    .nav-logo{
+        width: 30%;
+        font-size: 15pt;
+        box-sizing: border-box;
+    }
+    .nav-items{
+        width: 50%;
+        display: flex;
+        font-size: 10pt;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+    }
+    .item{
+        width: 18%;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .item:hover{
+        background-color: rgba(255, 255, 255, 0.8);
+        color:#314199;
+        border-radius: 2px;
+    }
+
+    /* web header */
+    .main-container-child{
+        margin-top: 0;
+    }
+    .best-deal-container{
+        display: none;
+    }
+    .web-head-container{
+        width: 100%;
+        height: 100vh;
+        display: inline-flex;
+        background-image: url("https://www.teahub.io/photos/full/60-604642_wallpaper-couple-walk-top-travel.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .bg-img-style{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        flex-direction: column;
+    }
+    .input-container{
+        width: 70%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border: none;
+        border-radius: 3px;
+        margin-top: 20vh;
+        margin-left: 5vw;
+        background-color: #fff;
+        z-index: 7;
+    }
+    .input{
+        width: 30%;
+        height: 6vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);;
+    }
+    .input-icon{
+        height: 70%;
+    }
+    .input-item{
+        width: 80%;
+        height: 100%;
+        font-size: 7pt;
+        border: none;
+    }
+    .about{
+        margin-top: 8vh;
+        margin-left: 15vw;
+        color: #fff;
+        line-height: 8vh;
+    }
+    .explore-btn{
+        width: 12%;
+        height: 10vh;
+        margin-top: 2vh;
+        margin-left: 15vw;
+        font-size: 11pt;
+        font-weight: 600;
+        border: none;
+        border-radius: 4px;
+        background: #314199;
+        color: #fff;
+        padding: 2vh 0;
+    }
+    .explore-btn:hover{
+        background-color: #EF4F4F;
+        transition: .5s;
+    }
+    .filter-parent{
+        width: 60%;
+        margin-top: 20vh;
+        margin-left: 18vw;
+    }
+    .filter-child{
+        width: 8vw;
+        height: 4vh;
+        color: #fff;
+    }
+    .filter-child:hover{
+        color: #314199;
+        background-color: rgba(255, 255, 255, 0.5);
+        border: 2px solid #fff;
+        cursor: pointer;
+    }
+    .filter-details-parent{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+        margin-top: 15vh;
+        align-items: center;
+    }
+    .location-scroll{
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+    }
+    .filter-child-details{
+        width: 20%;
+        height: 35vh;
+        box-sizing: border-box;
+        border: 2px solid white;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .active1,.active2,.active3,.active4{
+        display: inline-flex;
+    }
+    .filter-img{
+        width: 100%;
+        height: 85%;
+    }
+    .loca-name{
+        height: 10%;
+        font-size: 9pt;
+        font-weight: 600;
+        color: #314199;
+        padding: auto;
+    }
+
+    .best-deal{
+        margin-top: 30vh;
+    }
+    
+  
+    .header-img-2{
+        
+        background-image: url("https://mocah.org/uploads/posts/731552-Bali-Resorts-Indonesia.jpg");
+    }
+    .header-img-3{
+        background-image: url("https://gommts3.mmtcdn.com/htl-imgs/htl-imgs/6608967321242416-3567a2bc_z.jpg?&output-quality=75&downsize=910:612&crop=910:612;141,0&output-format=jpg");
+    }
+    
+    .hotel{
+        width: 23%;
+        height: 40vh;
+    }
+    .list-details-child{
+        font-size: 9pt;
+    }
+    .list-style{
+        margin-top: 2vh;
+    }
+    .list-btn{
+        height: 5vh;
+        font-size: 8pt;
+        margin-top: 2vh;
+    }
+    .weekend-escape{
+        display: none;
+    }
+    .weekend{
+        display: none;
+    }
+    .footer-container{
+        margin-bottom: 0;
+        padding: 10vh;
+        background-color: rgb(162, 163, 163);
+        box-sizing: border-box;
+    }
+    .footer-download{
+        width: 40%;
+    }
+    .footer-filter{
+        width: 30%;
+        font-size: 9pt;
+        line-height: 5vh;
+    }
+    .web-nav-filter{
+        display: inline-flex;
+    }
+    .store{
+        height: 10vh;
+    }
+
+
+    /* best deal */
+    .deal-main-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .scroll-btn{
+        width: 5%;
+        height: 10vh;
+        border-radius: 50px;
+        border: none;
+        background-color: #88e6d6;
+        color: #fff;
+        font-size: 20pt;
+        font-weight: 600;
+    }
+    .deal-parent{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .deal{
+        width: 30%;
+        margin: 0 2vw;
+        box-sizing: border-box;
+        display: none;
+        border-radius: 4px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #74C7B8;
+        padding: 2vh 0;
+    }
+    .header-image{
+        height: 35vh;
+    }
+    .header-img{
+        border-radius: 6px;
+    }
+    .details-style{
+        font-size: 8pt;
+    }
+    .header-details{
+        line-height: 5vh;
+        font-size: 10pt;
+    }
+    .header-btn{
+        width: 35%;
+        height: 5vh;
+        font-size: 9pt;
+    }
+    .active-1,.active-2,.active-3{
+        display: inline-flex;
+    }
+    
+
+    
+}
